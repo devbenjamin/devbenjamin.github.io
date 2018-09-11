@@ -1,0 +1,12 @@
+.bckgrnd {
+    background: var(--darkBrick) !important;
+}
+.logo-color {
+    color: var(--tan0) !important;
+}
+.text-color {
+    color: var(--tan1) !important;
+}
+
+
+

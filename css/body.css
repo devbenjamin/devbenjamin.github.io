@@ -1,0 +1,11 @@
+body {
+    /* background: var(--blackBrick); */
+    /* background-image: linear-gradient( 135deg, var(--black-brick) 10%, var(--brick) 100%); */
+    background-image: linear-gradient( 135deg, #260707 10%, #7a0f0f 100%);
+    color: var(--tan0);
+    font-size: 16px;
+}
+.centered {
+    display: inline-block;
+    text-align: center;
+}

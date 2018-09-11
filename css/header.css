@@ -1,0 +1,15 @@
+.font-color {
+    color: var(--black-brick)!important;
+}
+#profile-pic {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+#profile-pic img {
+    display: inline-block;
+    width: 15em;
+    border-radius: 50%;
+}
+
+

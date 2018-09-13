@@ -7,3 +7,88 @@
 @import "contact.css";
 @import "footer.css";
 @import "animate.css";
+
+a {
+    color: var(--brick);
+    text-decoration: underline;
+}
+
+
+#profile-pic {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#profile-pic img {
+    display: inline-block;
+    width: 15em;
+    border-radius: 50%;
+}
+
+.font-color {
+    color: var(--black-brick) !important;
+}
+
+.title {
+    width: 100%;
+}
+
+.delay {
+    animation-delay: 0.4s;
+    color: var(--tan2);
+}
+
+#long-version-text {
+    background: var(--tan0);
+    color: var(--dark-brick);
+    margin-top: 3em;
+    margin-bottom: 4em;
+    /* width: 70%;
+    min-width: 768px; */
+}
+
+#about {
+    color: var(--dark-brick);
+}
+
+.tan3 p {
+    color: var(--tan3) !important;
+}
+
+#projects {
+    align-self: center;
+    width: 90%;
+    color: var(--tan1);
+}
+
+#projects a {
+    color: var(--tan0);
+}
+
+#tan-line hr {
+    color: var(--tan0);
+}
+
+#footer {
+    background: var(--tan0);
+    color: var(--dark-brick);
+    height: 3em !important;
+}
+
+#footer h3 {
+    text-align: center;
+    margin: 0;
+
+}
+
+.rainDrops {
+    background-image: url("../assets/img/coding-books.jpg");
+    min-height: 100%;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

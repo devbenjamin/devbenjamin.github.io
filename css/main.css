@@ -92,3 +92,34 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bookshelf {
+    background-image: url("../assets/img/coding-books.jpg");
+    min-height: 100%;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.code-screen {
+    background-image: url("../assets/img/code-screen.jpg");
+    min-height: 100%;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flower {
+    background-image: url("../assets/img/flower.jpg");
+    min-height: 100%;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -123,3 +123,12 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.imgClick {
+    width: 10em;
+}
+.resume {
+    text-align: center;
+    color: var(--tan0) !important;
+    background: var(--tan0);
+    /* width: 20em; */
+}

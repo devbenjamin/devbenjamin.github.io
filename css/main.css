@@ -8,11 +8,17 @@
 @import "footer.css";
 @import "animate.css";
 
+.navbar-brand {
+  letter-spacing: 0px;
+}
+.display-4 {
+  letter-spacing: 3px;
+
+}
 a {
     color: var(--brick);
     text-decoration: underline;
 }
-
 
 #profile-pic {
     display: block;
@@ -44,8 +50,11 @@ a {
     color: var(--dark-brick);
     margin-top: 3em;
     margin-bottom: 4em;
+    border: 15px groove #000075;
+
     /* width: 70%;
     min-width: 768px; */
+    
 }
 
 #about {
@@ -71,9 +80,9 @@ a {
 }
 
 #footer {
-    background: var(--tan0);
-    color: var(--dark-brick);
-    height: 3em !important;
+    background: var(--black-brick);
+    color: var(--tan1);
+    height: 4em !important;
 }
 
 #footer h3 {
@@ -103,6 +112,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .code-screen {
     background-image: url("../assets/img/code-screen.jpg");
     min-height: 100%;
@@ -113,6 +123,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .flower {
     background-image: url("../assets/img/flower.jpg");
     min-height: 100%;
@@ -123,12 +134,68 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .imgClick {
-    width: 10em;
-}
-.resume {
+    /* width: 10em; */
     text-align: center;
-    color: var(--tan0) !important;
-    background: var(--tan0);
-    /* width: 20em; */
+}
+
+.resume {
+  text-align: center;
+  background-image: radial-gradient(var(--tan0), var(--dark-brick));
+  width: 13em;
+  height: 14em;
+  border-radius: 0 0 50% 50% ;
+  border: 15px groove #000075;
+  /* border: 2px var(--tan3); */
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+.resume a {
+  font-weight: bold;
+  -webkit-text-fill-color: var(--tan0) !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:var(--black-brick);
+}
+
+.proj-div {
+  margin: auto;
+}
+.proj-image {
+  height: 6em;
+  box-shadow: 8px 8px 2px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0.5em;
+  border: 10px double #000075;
+
+}
+.resume-padding-top {
+  padding-top: 0.8em;
+}
+.center {
+  padding-top: .6em;
+  text-align: center;
+}
+.center a {
+  color: var(--tan3
+  );
+}
+.center-div {
+  margin: 0 auto;
+  text-align: center;
+}
+.resume-back-to-top {
+  color: var(--tan3);
+}
+.contact-me {
+  text-align: center;
+  margin: 0 auto;
+}
+.name-width {
+  width: 35em;
+}
+.email-width {
+  width: 35em;
+}
+.comment-width {
+  width: 35em;
 }
